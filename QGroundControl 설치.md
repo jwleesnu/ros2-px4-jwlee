@@ -39,7 +39,7 @@ $ ./QGroundControl.AppImage
 
 <br>
 
-### - Troubleshooting
+### [Troubleshooting]
 
 <br>
 
