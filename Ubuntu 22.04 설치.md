@@ -4,7 +4,7 @@ Published by 이재우
 
 Last update date : 2024-06-20
 
-
+<br>
 
 ### Ubuntu version 22.04.04 LTS (Jammy Jellyfish) 를 설치합니다.
 - desktop image 다운로드
