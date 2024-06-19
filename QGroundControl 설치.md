@@ -31,6 +31,12 @@ $ cd Application
 $ ./QGroundControl.AppImage
 ```
 
+### 4. 실행 확인
+
+픽스호크를 연결하였을 때 다음과 같은 화면이 잘 나오는지 확인합니다. 
+
+![image](https://github.com/jwleesnu/PX4-ROS2-setting/assets/173290153/949a0fa9-0dc2-409f-b47b-40fe20434873)
+
 <br>
 
 ### - Troubleshooting
