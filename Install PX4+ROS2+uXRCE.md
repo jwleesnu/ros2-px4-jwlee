@@ -2,7 +2,7 @@
 
 Published by 이재우
 
-Last update date : 2024-06-20
+Last update date : 2024-07-16
 
 ### 1. PX4 설치 
 ```bash
