@@ -1,5 +1,9 @@
 # PX4+ROS2+uXRCE 환경 구축하기
 
+Published by 이재우
+
+Last update date : 2024-06-20
+
 ### 1. PX4 설치 
 ```bash
 git clone https://github.com/PX4/PX4-Autopilot.git --recursive
