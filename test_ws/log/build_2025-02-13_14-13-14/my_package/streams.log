@@ -1,0 +1,17 @@
+[0.532s] Invoking command in '/home/jaewoo/ros2/test_ws/build/my_package': PYTHONPATH=/home/jaewoo/ros2/test_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaewoo/ros2/test_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaewoo/ros2/test_ws/build/my_package/build --no-deps symlink_data
+[0.721s] running develop
+[0.902s] running egg_info
+[0.902s] writing my_package.egg-info/PKG-INFO
+[0.902s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[0.902s] writing entry points to my_package.egg-info/entry_points.txt
+[0.903s] writing requirements to my_package.egg-info/requires.txt
+[0.903s] writing top-level names to my_package.egg-info/top_level.txt
+[0.905s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[0.907s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[0.908s] running build_ext
+[0.908s] Creating /home/jaewoo/ros2/test_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+[0.908s] Installing my_node script to /home/jaewoo/ros2/test_ws/install/my_package/lib/my_package
+[0.909s] 
+[0.909s] Installed /home/jaewoo/ros2/test_ws/build/my_package
+[0.909s] running symlink_data
+[0.929s] Invoked command in '/home/jaewoo/ros2/test_ws/build/my_package' returned '0': PYTHONPATH=/home/jaewoo/ros2/test_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaewoo/ros2/test_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaewoo/ros2/test_ws/build/my_package/build --no-deps symlink_data

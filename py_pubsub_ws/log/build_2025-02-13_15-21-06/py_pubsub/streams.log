@@ -1,0 +1,23 @@
+[0.405s] Invoking command in '/home/jaewoo/ros2/py_pubsub_ws/build/py_pubsub': PYTHONPATH=/home/jaewoo/ros2/py_pubsub_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaewoo/ros2/py_pubsub_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaewoo/ros2/py_pubsub_ws/build/py_pubsub/build --no-deps symlink_data
+[0.588s] running develop
+[0.701s] running egg_info
+[0.701s] creating py_pubsub.egg-info
+[0.701s] writing py_pubsub.egg-info/PKG-INFO
+[0.702s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[0.702s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[0.702s] writing requirements to py_pubsub.egg-info/requires.txt
+[0.702s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[0.702s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[0.703s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[0.704s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[0.704s] running build_ext
+[0.705s] Creating /home/jaewoo/ros2/py_pubsub_ws/install/py_pubsub/lib/python3.10/site-packages/py-pubsub.egg-link (link to .)
+[0.705s] 
+[0.705s] Installed /home/jaewoo/ros2/py_pubsub_ws/build/py_pubsub
+[0.705s] running symlink_data
+[0.705s] creating /home/jaewoo/ros2/py_pubsub_ws/install/py_pubsub/share/ament_index
+[0.705s] creating /home/jaewoo/ros2/py_pubsub_ws/install/py_pubsub/share/ament_index/resource_index
+[0.705s] creating /home/jaewoo/ros2/py_pubsub_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.705s] symbolically linking /home/jaewoo/ros2/py_pubsub_ws/build/py_pubsub/resource/py_pubsub -> /home/jaewoo/ros2/py_pubsub_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.705s] symbolically linking /home/jaewoo/ros2/py_pubsub_ws/build/py_pubsub/package.xml -> /home/jaewoo/ros2/py_pubsub_ws/install/py_pubsub/share/py_pubsub
+[0.723s] Invoked command in '/home/jaewoo/ros2/py_pubsub_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/jaewoo/ros2/py_pubsub_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaewoo/ros2/py_pubsub_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaewoo/ros2/py_pubsub_ws/build/py_pubsub/build --no-deps symlink_data

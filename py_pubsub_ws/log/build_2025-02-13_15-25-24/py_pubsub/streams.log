@@ -1,0 +1,18 @@
+[0.398s] Invoking command in '/home/jaewoo/ros2/py_pubsub_ws/build/py_pubsub': PYTHONPATH=/home/jaewoo/ros2/py_pubsub_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaewoo/ros2/py_pubsub_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaewoo/ros2/py_pubsub_ws/build/py_pubsub/build --no-deps symlink_data
+[0.575s] running develop
+[0.687s] running egg_info
+[0.687s] writing py_pubsub.egg-info/PKG-INFO
+[0.687s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[0.687s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[0.687s] writing requirements to py_pubsub.egg-info/requires.txt
+[0.687s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[0.688s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[0.689s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[0.690s] running build_ext
+[0.690s] Creating /home/jaewoo/ros2/py_pubsub_ws/install/py_pubsub/lib/python3.10/site-packages/py-pubsub.egg-link (link to .)
+[0.690s] Installing listener script to /home/jaewoo/ros2/py_pubsub_ws/install/py_pubsub/lib/py_pubsub
+[0.690s] Installing talker script to /home/jaewoo/ros2/py_pubsub_ws/install/py_pubsub/lib/py_pubsub
+[0.691s] 
+[0.691s] Installed /home/jaewoo/ros2/py_pubsub_ws/build/py_pubsub
+[0.691s] running symlink_data
+[0.708s] Invoked command in '/home/jaewoo/ros2/py_pubsub_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/jaewoo/ros2/py_pubsub_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaewoo/ros2/py_pubsub_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaewoo/ros2/py_pubsub_ws/build/py_pubsub/build --no-deps symlink_data
