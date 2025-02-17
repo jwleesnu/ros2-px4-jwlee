@@ -1,1 +1,1 @@
-/home/jaewoo/ros2/px4_test_ws/src/px4_ros_com/launch/sensor_combined_listener.launch.py
+/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_ros_com/launch/sensor_combined_listener.launch.py
