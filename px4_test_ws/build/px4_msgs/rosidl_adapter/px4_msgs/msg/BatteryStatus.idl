@@ -7,6 +7,7 @@ module px4_msgs {
   module msg {
     typedef float float__14[14];
     module BatteryStatus_Constants {
+      const uint32 MESSAGE_VERSION = 0;
       const uint8 BATTERY_SOURCE_POWER_MODULE = 0;
       const uint8 BATTERY_SOURCE_EXTERNAL = 1;
       const uint8 BATTERY_SOURCE_ESCS = 2;

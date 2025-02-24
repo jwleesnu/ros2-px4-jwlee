@@ -25,6 +25,7 @@ class Metaclass_BatteryStatus(type):
     _TYPE_SUPPORT = None
 
     __constants = {
+        'MESSAGE_VERSION': 0,
         'BATTERY_SOURCE_POWER_MODULE': 0,
         'BATTERY_SOURCE_EXTERNAL': 1,
         'BATTERY_SOURCE_ESCS': 2,
@@ -76,6 +77,7 @@ class Metaclass_BatteryStatus(type):
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
         return {
+            'MESSAGE_VERSION': cls.__constants['MESSAGE_VERSION'],
             'BATTERY_SOURCE_POWER_MODULE': cls.__constants['BATTERY_SOURCE_POWER_MODULE'],
             'BATTERY_SOURCE_EXTERNAL': cls.__constants['BATTERY_SOURCE_EXTERNAL'],
             'BATTERY_SOURCE_ESCS': cls.__constants['BATTERY_SOURCE_ESCS'],
@@ -100,6 +102,11 @@ class Metaclass_BatteryStatus(type):
             'BATTERY_FAULT_COUNT': cls.__constants['BATTERY_FAULT_COUNT'],
             'MAX_INSTANCES': cls.__constants['MAX_INSTANCES'],
         }
+
+    @property
+    def MESSAGE_VERSION(self):
+        """Message constant 'MESSAGE_VERSION'."""
+        return Metaclass_BatteryStatus.__constants['MESSAGE_VERSION']
 
     @property
     def BATTERY_SOURCE_POWER_MODULE(self):
@@ -222,6 +229,7 @@ class BatteryStatus(metaclass=Metaclass_BatteryStatus):
     Message class 'BatteryStatus'.
 
     Constants:
+      MESSAGE_VERSION
       BATTERY_SOURCE_POWER_MODULE
       BATTERY_SOURCE_EXTERNAL
       BATTERY_SOURCE_ESCS

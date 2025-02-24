@@ -406,9 +406,6 @@ ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/p
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/BatteryStatus.idl" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/BatteryStatus.idl" "DESTINATION" "share/px4_msgs/msg")
 
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/Buffer128.idl" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/Buffer128.idl" "DESTINATION" "share/px4_msgs/msg")
-
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/ButtonEvent.idl" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/ButtonEvent.idl" "DESTINATION" "share/px4_msgs/msg")
 
@@ -613,6 +610,9 @@ ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/p
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/InputRc.idl" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/InputRc.idl" "DESTINATION" "share/px4_msgs/msg")
 
+# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/InternalCombustionEngineControl.idl" "DESTINATION" "share/px4_msgs/msg")
+ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/InternalCombustionEngineControl.idl" "DESTINATION" "share/px4_msgs/msg")
+
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/InternalCombustionEngineStatus.idl" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/InternalCombustionEngineStatus.idl" "DESTINATION" "share/px4_msgs/msg")
 
@@ -796,23 +796,11 @@ ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/p
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RegisterExtComponentRequest.idl" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RegisterExtComponentRequest.idl" "DESTINATION" "share/px4_msgs/msg")
 
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverAckermannGuidanceStatus.idl" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverAckermannGuidanceStatus.idl" "DESTINATION" "share/px4_msgs/msg")
+# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverAttitudeSetpoint.idl" "DESTINATION" "share/px4_msgs/msg")
+ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverAttitudeSetpoint.idl" "DESTINATION" "share/px4_msgs/msg")
 
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverAckermannSetpoint.idl" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverAckermannSetpoint.idl" "DESTINATION" "share/px4_msgs/msg")
-
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverAckermannStatus.idl" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverAckermannStatus.idl" "DESTINATION" "share/px4_msgs/msg")
-
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverDifferentialGuidanceStatus.idl" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverDifferentialGuidanceStatus.idl" "DESTINATION" "share/px4_msgs/msg")
-
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverDifferentialSetpoint.idl" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverDifferentialSetpoint.idl" "DESTINATION" "share/px4_msgs/msg")
-
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverDifferentialStatus.idl" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverDifferentialStatus.idl" "DESTINATION" "share/px4_msgs/msg")
+# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverAttitudeStatus.idl" "DESTINATION" "share/px4_msgs/msg")
+ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverAttitudeStatus.idl" "DESTINATION" "share/px4_msgs/msg")
 
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverMecanumGuidanceStatus.idl" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverMecanumGuidanceStatus.idl" "DESTINATION" "share/px4_msgs/msg")
@@ -822,6 +810,21 @@ ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/p
 
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverMecanumStatus.idl" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverMecanumStatus.idl" "DESTINATION" "share/px4_msgs/msg")
+
+# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverRateSetpoint.idl" "DESTINATION" "share/px4_msgs/msg")
+ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverRateSetpoint.idl" "DESTINATION" "share/px4_msgs/msg")
+
+# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverRateStatus.idl" "DESTINATION" "share/px4_msgs/msg")
+ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverRateStatus.idl" "DESTINATION" "share/px4_msgs/msg")
+
+# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverSteeringSetpoint.idl" "DESTINATION" "share/px4_msgs/msg")
+ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverSteeringSetpoint.idl" "DESTINATION" "share/px4_msgs/msg")
+
+# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverThrottleSetpoint.idl" "DESTINATION" "share/px4_msgs/msg")
+ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverThrottleSetpoint.idl" "DESTINATION" "share/px4_msgs/msg")
+
+# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverVelocityStatus.idl" "DESTINATION" "share/px4_msgs/msg")
+ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/RoverVelocityStatus.idl" "DESTINATION" "share/px4_msgs/msg")
 
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/Rpm.idl" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/Rpm.idl" "DESTINATION" "share/px4_msgs/msg")
@@ -913,14 +916,8 @@ ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/p
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/TimesyncStatus.idl" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/TimesyncStatus.idl" "DESTINATION" "share/px4_msgs/msg")
 
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/TrajectoryBezier.idl" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/TrajectoryBezier.idl" "DESTINATION" "share/px4_msgs/msg")
-
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/TrajectorySetpoint.idl" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/TrajectorySetpoint.idl" "DESTINATION" "share/px4_msgs/msg")
-
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/TrajectoryWaypoint.idl" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/TrajectoryWaypoint.idl" "DESTINATION" "share/px4_msgs/msg")
 
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/TransponderReport.idl" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/TransponderReport.idl" "DESTINATION" "share/px4_msgs/msg")
@@ -1018,12 +1015,6 @@ ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/p
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/VehicleTorqueSetpoint.idl" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/VehicleTorqueSetpoint.idl" "DESTINATION" "share/px4_msgs/msg")
 
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/VehicleTrajectoryBezier.idl" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/VehicleTrajectoryBezier.idl" "DESTINATION" "share/px4_msgs/msg")
-
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/VehicleTrajectoryWaypoint.idl" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/VehicleTrajectoryWaypoint.idl" "DESTINATION" "share/px4_msgs/msg")
-
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/VelocityLimits.idl" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/VelocityLimits.idl" "DESTINATION" "share/px4_msgs/msg")
 
@@ -1089,9 +1080,6 @@ ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/p
 
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/BatteryStatus.msg" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/BatteryStatus.msg" "DESTINATION" "share/px4_msgs/msg")
-
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/Buffer128.msg" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/Buffer128.msg" "DESTINATION" "share/px4_msgs/msg")
 
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/ButtonEvent.msg" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/ButtonEvent.msg" "DESTINATION" "share/px4_msgs/msg")
@@ -1297,6 +1285,9 @@ ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/p
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/InputRc.msg" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/InputRc.msg" "DESTINATION" "share/px4_msgs/msg")
 
+# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/InternalCombustionEngineControl.msg" "DESTINATION" "share/px4_msgs/msg")
+ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/InternalCombustionEngineControl.msg" "DESTINATION" "share/px4_msgs/msg")
+
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/InternalCombustionEngineStatus.msg" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/InternalCombustionEngineStatus.msg" "DESTINATION" "share/px4_msgs/msg")
 
@@ -1480,23 +1471,11 @@ ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/p
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RegisterExtComponentRequest.msg" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RegisterExtComponentRequest.msg" "DESTINATION" "share/px4_msgs/msg")
 
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverAckermannGuidanceStatus.msg" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverAckermannGuidanceStatus.msg" "DESTINATION" "share/px4_msgs/msg")
+# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverAttitudeSetpoint.msg" "DESTINATION" "share/px4_msgs/msg")
+ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverAttitudeSetpoint.msg" "DESTINATION" "share/px4_msgs/msg")
 
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverAckermannSetpoint.msg" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverAckermannSetpoint.msg" "DESTINATION" "share/px4_msgs/msg")
-
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverAckermannStatus.msg" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverAckermannStatus.msg" "DESTINATION" "share/px4_msgs/msg")
-
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverDifferentialGuidanceStatus.msg" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverDifferentialGuidanceStatus.msg" "DESTINATION" "share/px4_msgs/msg")
-
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverDifferentialSetpoint.msg" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverDifferentialSetpoint.msg" "DESTINATION" "share/px4_msgs/msg")
-
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverDifferentialStatus.msg" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverDifferentialStatus.msg" "DESTINATION" "share/px4_msgs/msg")
+# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverAttitudeStatus.msg" "DESTINATION" "share/px4_msgs/msg")
+ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverAttitudeStatus.msg" "DESTINATION" "share/px4_msgs/msg")
 
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverMecanumGuidanceStatus.msg" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverMecanumGuidanceStatus.msg" "DESTINATION" "share/px4_msgs/msg")
@@ -1506,6 +1485,21 @@ ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/p
 
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverMecanumStatus.msg" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverMecanumStatus.msg" "DESTINATION" "share/px4_msgs/msg")
+
+# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverRateSetpoint.msg" "DESTINATION" "share/px4_msgs/msg")
+ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverRateSetpoint.msg" "DESTINATION" "share/px4_msgs/msg")
+
+# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverRateStatus.msg" "DESTINATION" "share/px4_msgs/msg")
+ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverRateStatus.msg" "DESTINATION" "share/px4_msgs/msg")
+
+# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverSteeringSetpoint.msg" "DESTINATION" "share/px4_msgs/msg")
+ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverSteeringSetpoint.msg" "DESTINATION" "share/px4_msgs/msg")
+
+# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverThrottleSetpoint.msg" "DESTINATION" "share/px4_msgs/msg")
+ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverThrottleSetpoint.msg" "DESTINATION" "share/px4_msgs/msg")
+
+# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverVelocityStatus.msg" "DESTINATION" "share/px4_msgs/msg")
+ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/RoverVelocityStatus.msg" "DESTINATION" "share/px4_msgs/msg")
 
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/Rpm.msg" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/Rpm.msg" "DESTINATION" "share/px4_msgs/msg")
@@ -1597,14 +1591,8 @@ ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/p
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/TimesyncStatus.msg" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/TimesyncStatus.msg" "DESTINATION" "share/px4_msgs/msg")
 
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/TrajectoryBezier.msg" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/TrajectoryBezier.msg" "DESTINATION" "share/px4_msgs/msg")
-
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/TrajectorySetpoint.msg" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/TrajectorySetpoint.msg" "DESTINATION" "share/px4_msgs/msg")
-
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/TrajectoryWaypoint.msg" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/TrajectoryWaypoint.msg" "DESTINATION" "share/px4_msgs/msg")
 
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/TransponderReport.msg" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/TransponderReport.msg" "DESTINATION" "share/px4_msgs/msg")
@@ -1701,12 +1689,6 @@ ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/p
 
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/VehicleTorqueSetpoint.msg" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/VehicleTorqueSetpoint.msg" "DESTINATION" "share/px4_msgs/msg")
-
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/VehicleTrajectoryBezier.msg" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/VehicleTrajectoryBezier.msg" "DESTINATION" "share/px4_msgs/msg")
-
-# install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/VehicleTrajectoryWaypoint.msg" "DESTINATION" "share/px4_msgs/msg")
-ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/VehicleTrajectoryWaypoint.msg" "DESTINATION" "share/px4_msgs/msg")
 
 # install(FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/VelocityLimits.msg" "DESTINATION" "share/px4_msgs/msg")
 ament_cmake_symlink_install_files("/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs" FILES "/home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/px4_msgs/msg/VelocityLimits.msg" "DESTINATION" "share/px4_msgs/msg")

@@ -1,0 +1,69 @@
+[0.008s] Invoking command in '/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/yj_controller': AMENT_PREFIX_PATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com/lib:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/yj_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/yj_controller
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.088s] -- The CXX compiler identification is GNU 11.4.0
+[0.093s] -- Detecting C compiler ABI info
+[0.139s] -- Detecting C compiler ABI info - done
+[0.145s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.145s] -- Detecting C compile features
+[0.145s] -- Detecting C compile features - done
+[0.147s] -- Detecting CXX compiler ABI info
+[0.223s] -- Detecting CXX compiler ABI info - done
+[0.228s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.228s] -- Detecting CXX compile features
+[0.228s] -- Detecting CXX compile features - done
+[0.229s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.360s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.443s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.479s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.519s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.521s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.527s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.538s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.555s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.569s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.576s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.577s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.601s] -- Found px4_msgs: 2.0.1 (/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs/share/px4_msgs/cmake)
+[0.616s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.653s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.656s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.745s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.768s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.803s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.814s] -- Looking for pthread.h
+[0.885s] -- Looking for pthread.h - found
+[0.885s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.934s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.935s] -- Found Threads: TRUE  
+[0.964s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.034s] -- Configuring done
+[1.040s] -- Generating done
+[1.043s] -- Build files have been written to: /home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/yj_controller
+[1.050s] Invoked command in '/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/yj_controller' returned '0': AMENT_PREFIX_PATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com/lib:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jaewoo/ros2-px4-jwlee/px4_test_ws/src/yj_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/yj_controller
+[1.051s] Invoking command in '/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/yj_controller': AMENT_PREFIX_PATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com/lib:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/yj_controller -- -j22 -l22
+[1.096s] [ 50%] [32mBuilding CXX object CMakeFiles/yj_controller_node.dir/src/main.cpp.o[0m
+[22.350s] [100%] [32m[1mLinking CXX executable yj_controller_node[0m
+[23.395s] [100%] Built target yj_controller_node
+[23.403s] Invoked command in '/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/yj_controller' returned '0': AMENT_PREFIX_PATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com/lib:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/yj_controller -- -j22 -l22
+[23.404s] Invoking command in '/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/yj_controller': AMENT_PREFIX_PATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com/lib:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/yj_controller
+[23.409s] -- Install configuration: ""
+[23.409s] -- Execute custom install script
+[23.409s] -- Symlinking: /home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/yj_controller/lib/yj_controller/yj_controller_node
+[23.417s] -- Symlinking: /home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/yj_controller/share/yj_controller/launch/yj_controller.launch
+[23.423s] -- Symlinking: /home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/yj_controller/include//so3_utils.hpp
+[23.428s] -- Symlinking: /home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/yj_controller/share/ament_index/resource_index/package_run_dependencies/yj_controller
+[23.433s] -- Symlinking: /home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/yj_controller/share/ament_index/resource_index/parent_prefix_path/yj_controller
+[23.440s] -- Symlinking: /home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/yj_controller/share/yj_controller/environment/ament_prefix_path.sh
+[23.446s] -- Symlinking: /home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/yj_controller/share/yj_controller/environment/ament_prefix_path.dsv
+[23.451s] -- Symlinking: /home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/yj_controller/share/yj_controller/environment/path.sh
+[23.458s] -- Symlinking: /home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/yj_controller/share/yj_controller/environment/path.dsv
+[23.463s] -- Symlinking: /home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/yj_controller/share/yj_controller/local_setup.bash
+[23.471s] -- Symlinking: /home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/yj_controller/share/yj_controller/local_setup.sh
+[23.478s] -- Symlinking: /home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/yj_controller/share/yj_controller/local_setup.zsh
+[23.488s] -- Symlinking: /home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/yj_controller/share/yj_controller/local_setup.dsv
+[23.494s] -- Symlinking: /home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/yj_controller/share/yj_controller/package.dsv
+[23.501s] -- Symlinking: /home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/yj_controller/share/ament_index/resource_index/packages/yj_controller
+[23.508s] -- Symlinking: /home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/yj_controller/share/yj_controller/cmake/yj_controllerConfig.cmake
+[23.514s] -- Symlinking: /home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/yj_controller/share/yj_controller/cmake/yj_controllerConfig-version.cmake
+[23.518s] -- Symlinking: /home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/yj_controller/share/yj_controller/package.xml
+[23.525s] Invoked command in '/home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/yj_controller' returned '0': AMENT_PREFIX_PATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com/lib:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/jaewoo/ros2-px4-jwlee/px4_test_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaewoo/ros2-px4-jwlee/px4_test_ws/build/yj_controller

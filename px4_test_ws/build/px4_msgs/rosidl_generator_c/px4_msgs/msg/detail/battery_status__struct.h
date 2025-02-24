@@ -18,6 +18,12 @@ extern "C"
 
 // Constants defined in the message
 
+/// Constant 'MESSAGE_VERSION'.
+enum
+{
+  px4_msgs__msg__BatteryStatus__MESSAGE_VERSION = 0ul
+};
+
 /// Constant 'BATTERY_SOURCE_POWER_MODULE'.
 enum
 {

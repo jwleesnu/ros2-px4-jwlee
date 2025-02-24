@@ -1,0 +1,4 @@
+source;share/ui_controller/local_setup.bash
+source;share/ui_controller/local_setup.dsv
+source;share/ui_controller/local_setup.sh
+source;share/ui_controller/local_setup.zsh
